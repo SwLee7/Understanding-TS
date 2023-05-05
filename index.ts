@@ -9,7 +9,7 @@
 let name2 = 'SeokwonLee';
 let id :{나이: number, 출생지역: string} = {나이 : 1500, 출생지역: '한양'}
 //Q2.
-let favorite :{가수 : string, 노래 : string} = {가수:'태연', 노래:'사계' }
+let favorite :{가수 : string, 노래 : string} = {가수:'태연', 노래:'I' }
 
 //강의3
 

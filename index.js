@@ -8,7 +8,7 @@
 var name2 = 'SeokwonLee';
 var id = { 나이: 1500, 출생지역: '한양' };
 //Q2.
-var favorite = { 가수: '태연', 노래: '사계' };
+var favorite = { 가수: '태연', 노래: 'I' };
 //강의3
 var 회원 = 123; // UNION TYPE: type 2개 이상 합친 새로운 타입 만들기 |(합 연산자)를 이용한다. union 타입은 새로운 타입을 만들어낸 것이기 때문에 sring|number 같은 새로운 타입에 +1하면 에러를 낸다.
 var members3 = [1, '2', 3]; // 배열을 union할 때는 배열 앞을 괄호로 묶어 주는 것이 좋다.
