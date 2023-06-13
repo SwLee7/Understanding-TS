@@ -16,13 +16,9 @@ var removeDash = function (x) {
     var result = x.replace(/-/g, "");
     return parseFloat(result);
 };
-var func1st = function (param1) {
-    return param1 + 7;
-};
-var func2nd = function (param1) {
-    return param1 + 3;
-};
-var function3 = function (param2) {
-    return param2 + 4;
-};
-function3(func2nd(func1st(3)));
+function newFunc(a, func1, func2) {
+    var result1 = func1(a);
+    var result2 = func2(result1);
+}
+newFunc('010-1111-2222', cutZero, removeDash);
+// 먼저 JS로 함수를 만들고 그 후에 type 지정하는 것도 하나의 문제 풀이 방법이 되겠네...
